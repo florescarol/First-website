@@ -1,0 +1,47 @@
+* {
+    font-family: 'arvo';
+    margin: 0;
+}
+
+header {
+    background-color: #481D24;
+    color: ivory;
+    width: 100%;
+    display: inline-block;
+}
+
+#title {
+    float: left;
+    padding: 10px;
+}
+
+#menu {
+    list-style: none;
+    float: right;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+}
+
+#menu li:hover ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #481D24;
+}
+
+a:hover {
+    color: #FFC857;
+    border-bottom: solid #FFC857 3px;
+}
+
+img {
+    width: 20%;
+}
