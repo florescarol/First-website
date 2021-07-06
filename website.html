@@ -18,18 +18,18 @@
         <div id='menu'>
             <ul>
                 <li>
-                    <a>Our products</a>
-                </li>
-                <li>
                     <a>About us</a>
                         <ul>
                             <li>
-                                <a>Our story</a>
+                                <a href=#story>Our story</a>
                             </li>
                             <li>
-                                <a>Our team</a>
+                                <a href=#team>Our team</a>
                             </li>
                         </ul>
+                </li>
+                <li>
+                    <a href=#products>Our products</a>
                 </li>
                 <li>
                     <a>FAQ</a>
@@ -43,10 +43,92 @@
 
     <main>
         <div id='welcome-page'>
-            <img src="/images/people.jpg">
-            <h2>This is a very short way to say what we do</h2>
-            <p>This is a not very long but also not very short way to explain what this company does. It could have some details. Maybe lots even.</p>
+            <div class='group'>
+                <img src="/images/people.jpg">
+            </div>
+            <div class='group' id='introduction'>
+                <h2>This is the company mission.</h2>
+                <p>Let's pretend we have here some details.
+                    It's a very good explanation. But it's not very long.
+                    This is just a simple introduction of what this very nice
+                    and effective company does.</p>    
+            </div>
         </div>
+
+        <div class='section'>
+            <div id='story'>
+                <h2>Our story</h2>
+                <p>In 2050, we realized something. What is that?
+                    Well, we realized that we needed to do something about that problem.
+                    Yes, that very especific problem. You know the one. So this is how
+                    this company was born. We wanted to fix that. And we did.
+                    Pretend you just read some fancy data to back up the above.
+                    Impressive, right? Well, to do that we need to have a very impressive
+                    team as well. You should meet them.
+                </p>
+            </div>
+
+            <div id='team'>
+                <h2>Our team</h2>
+                <div id='people'>
+                    <div class="person">
+                        <img src='./images/employee1.jpg' alt='Very serious cat'>
+                        <h3>Name</h3>
+                        position
+                    </div>
+                    <div class="person">
+                        <img src='./images/employee2.jpg' alt='Another very serious cat'>
+                        <h3>Name</h3>
+                        position
+                    </div>
+                    <div class="person">
+                        <img src="./images/employee3.jpg" alt='Very seriou cat'>
+                        <h3>Name</h3>
+                        position
+                    </div>
+                    <div class="person">
+                        <img src='./images/employee4.jpg' alt='Royalty cat (also serious)'>
+                        <h3>Name</h3>
+                        position
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='section'>
+            <div id='products'>
+                <h2>Our products</h2>
+                <div class='containers'>
+                    <div class="container">
+                        <img src='./images/product1.png'>
+                        <h3>Product 1</h3>
+                        <p> This is a product description. It's very impressive. </p>
+                    </div>
+                    <div class="container">
+                        <img src='./images/product2.png'>
+                        <h3>Product 2</h3>
+                        <p>This is a product description. It's very nice.</p>
+                    </div>
+                    <div class="container">
+                        <img src='./images/product3.png'>
+                        <h3>Product 3</h3>
+                        <p>This is a product description. It's amazing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div id='faq'>
+
+            </div>
+        </div>
+        <div class="section">
+            <div id='contact'>
+
+            </div>
+        </div>
+
     </main>
     
     <script src="script.js"></script>
